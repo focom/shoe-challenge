@@ -2,16 +2,6 @@
 const ws_url = 'ws://localhost:8080/'
 const inventory = document.querySelector('.inventory')
 
-var isSendingNotification = false
-const activateNotification = function () {
-  isSendingNotification = !isSendingNotification
-  if (isSendingNotification) {
-    document.querySelector('button').innerHTML = 'Deactivate notifications'
-  } else {
-    document.querySelector('button').innerHTML = 'Activate notifications for inventory lower than 5'
-  }
-}
-
 function notifyMe (event) {
   if (!('Notification' in window)) {
     alert('This browser does not support desktop notification')

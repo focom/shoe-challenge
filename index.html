@@ -16,5 +16,17 @@
         </div>
     </div>
 </body>
+<script>
+    var isSendingNotification = false
+    const activateNotification = function () {
+        isSendingNotification = !isSendingNotification
+        if (isSendingNotification) {
+            document.querySelector('button').innerHTML = 'Deactivate notifications'
+        } else {
+            document.querySelector('button').innerHTML = 'Activate notifications for inventory lower than 5'
+        }
+    }
+</script>
 <script src="app.js"></script>
+
 </html>

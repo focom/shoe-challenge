@@ -1,5 +1,5 @@
 # Shoe Store
-
+[See result here](#Results)
 ## Synopsis
 
 Aldo Shoes is having a huge flash sale online. You provide support to the inventory department. They want to react real-time to various inventory problems as they arise.

@@ -1,0 +1,24 @@
+{
+  "name": "shoe-store-challenge",
+  "version": "1.0.0",
+  "description": "## Synopsis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieugagne/shoe-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathieugagne/shoe-store/issues"
+  },
+  "homepage": "https://github.com/mathieugagne/shoe-store#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {}
+}
